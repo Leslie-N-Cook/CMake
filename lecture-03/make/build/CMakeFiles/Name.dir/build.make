@@ -53,10 +53,10 @@ RM = /opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lesliecook/lecture-03/make
+CMAKE_SOURCE_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lesliecook/lecture-03/make/build
+CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Name.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Name.dir/progress.make
 include CMakeFiles/Name.dir/flags.make
 
 CMakeFiles/Name.dir/Name.cpp.o: CMakeFiles/Name.dir/flags.make
-CMakeFiles/Name.dir/Name.cpp.o: /Users/lesliecook/lecture-03/make/Name.cpp
+CMakeFiles/Name.dir/Name.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.cpp
 CMakeFiles/Name.dir/Name.cpp.o: CMakeFiles/Name.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/Name.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/Name.cpp.o -MF CMakeFiles/Name.dir/Name.cpp.o.d -o CMakeFiles/Name.dir/Name.cpp.o -c /Users/lesliecook/lecture-03/make/Name.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/Name.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/Name.cpp.o -MF CMakeFiles/Name.dir/Name.cpp.o.d -o CMakeFiles/Name.dir/Name.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.cpp
 
 CMakeFiles/Name.dir/Name.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Name.dir/Name.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/lecture-03/make/Name.cpp > CMakeFiles/Name.dir/Name.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.cpp > CMakeFiles/Name.dir/Name.cpp.i
 
 CMakeFiles/Name.dir/Name.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Name.dir/Name.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/lecture-03/make/Name.cpp -o CMakeFiles/Name.dir/Name.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.cpp -o CMakeFiles/Name.dir/Name.cpp.s
 
 # Object files for target Name
 Name_OBJECTS = \
@@ -93,7 +93,7 @@ Name_EXTERNAL_OBJECTS =
 libName.a: CMakeFiles/Name.dir/Name.cpp.o
 libName.a: CMakeFiles/Name.dir/build.make
 libName.a: CMakeFiles/Name.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libName.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libName.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Name.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Name.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/Name.dir/clean:
 .PHONY : CMakeFiles/Name.dir/clean
 
 CMakeFiles/Name.dir/depend:
-	cd /Users/lesliecook/lecture-03/make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lesliecook/lecture-03/make /Users/lesliecook/lecture-03/make /Users/lesliecook/lecture-03/make/build /Users/lesliecook/lecture-03/make/build /Users/lesliecook/lecture-03/make/build/CMakeFiles/Name.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lesliecook/CMake_tutorials/lecture-03/make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lesliecook/CMake_tutorials/lecture-03/make /Users/lesliecook/CMake_tutorials/lecture-03/make /Users/lesliecook/CMake_tutorials/lecture-03/make/build /Users/lesliecook/CMake_tutorials/lecture-03/make/build /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles/Name.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Name.dir/depend
 

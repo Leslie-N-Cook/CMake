@@ -53,10 +53,10 @@ RM = /opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lesliecook/lecture-03/make
+CMAKE_SOURCE_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lesliecook/lecture-03/make/build
+CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/student_service.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/student_service.dir/progress.make
 include CMakeFiles/student_service.dir/flags.make
 
 CMakeFiles/student_service.dir/Student.cpp.o: CMakeFiles/student_service.dir/flags.make
-CMakeFiles/student_service.dir/Student.cpp.o: /Users/lesliecook/lecture-03/make/Student.cpp
+CMakeFiles/student_service.dir/Student.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make/Student.cpp
 CMakeFiles/student_service.dir/Student.cpp.o: CMakeFiles/student_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_service.dir/Student.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/Student.cpp.o -MF CMakeFiles/student_service.dir/Student.cpp.o.d -o CMakeFiles/student_service.dir/Student.cpp.o -c /Users/lesliecook/lecture-03/make/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_service.dir/Student.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/Student.cpp.o -MF CMakeFiles/student_service.dir/Student.cpp.o.d -o CMakeFiles/student_service.dir/Student.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make/Student.cpp
 
 CMakeFiles/student_service.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_service.dir/Student.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/lecture-03/make/Student.cpp > CMakeFiles/student_service.dir/Student.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make/Student.cpp > CMakeFiles/student_service.dir/Student.cpp.i
 
 CMakeFiles/student_service.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_service.dir/Student.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/lecture-03/make/Student.cpp -o CMakeFiles/student_service.dir/Student.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make/Student.cpp -o CMakeFiles/student_service.dir/Student.cpp.s
 
 CMakeFiles/student_service.dir/Main.cpp.o: CMakeFiles/student_service.dir/flags.make
-CMakeFiles/student_service.dir/Main.cpp.o: /Users/lesliecook/lecture-03/make/Main.cpp
+CMakeFiles/student_service.dir/Main.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make/Main.cpp
 CMakeFiles/student_service.dir/Main.cpp.o: CMakeFiles/student_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student_service.dir/Main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/Main.cpp.o -MF CMakeFiles/student_service.dir/Main.cpp.o.d -o CMakeFiles/student_service.dir/Main.cpp.o -c /Users/lesliecook/lecture-03/make/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student_service.dir/Main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/Main.cpp.o -MF CMakeFiles/student_service.dir/Main.cpp.o.d -o CMakeFiles/student_service.dir/Main.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make/Main.cpp
 
 CMakeFiles/student_service.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_service.dir/Main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/lecture-03/make/Main.cpp > CMakeFiles/student_service.dir/Main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make/Main.cpp > CMakeFiles/student_service.dir/Main.cpp.i
 
 CMakeFiles/student_service.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_service.dir/Main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/lecture-03/make/Main.cpp -o CMakeFiles/student_service.dir/Main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make/Main.cpp -o CMakeFiles/student_service.dir/Main.cpp.s
 
 # Object files for target student_service
 student_service_OBJECTS = \
@@ -110,7 +110,7 @@ student_service: CMakeFiles/student_service.dir/Main.cpp.o
 student_service: CMakeFiles/student_service.dir/build.make
 student_service: libName.a
 student_service: CMakeFiles/student_service.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable student_service"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable student_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_service.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -122,6 +122,6 @@ CMakeFiles/student_service.dir/clean:
 .PHONY : CMakeFiles/student_service.dir/clean
 
 CMakeFiles/student_service.dir/depend:
-	cd /Users/lesliecook/lecture-03/make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lesliecook/lecture-03/make /Users/lesliecook/lecture-03/make /Users/lesliecook/lecture-03/make/build /Users/lesliecook/lecture-03/make/build /Users/lesliecook/lecture-03/make/build/CMakeFiles/student_service.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lesliecook/CMake_tutorials/lecture-03/make/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lesliecook/CMake_tutorials/lecture-03/make /Users/lesliecook/CMake_tutorials/lecture-03/make /Users/lesliecook/CMake_tutorials/lecture-03/make/build /Users/lesliecook/CMake_tutorials/lecture-03/make/build /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles/student_service.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/student_service.dir/depend
 

@@ -54,10 +54,10 @@ RM = /opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lesliecook/lecture-03/make
+CMAKE_SOURCE_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lesliecook/lecture-03/make/build
+CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/make/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/student_service.dir/clean
 CMakeFiles/Name.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=1,2 "Built target Name"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=1,2 "Built target Name"
 .PHONY : CMakeFiles/Name.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Name.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/lecture-03/make/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Name.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/lecture-03/make/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles 0
 .PHONY : CMakeFiles/Name.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/Name.dir/clean:
 CMakeFiles/student_service.dir/all: CMakeFiles/Name.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/lecture-03/make/build/CMakeFiles --progress-num=3,4,5 "Built target student_service"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles --progress-num=3,4,5 "Built target student_service"
 .PHONY : CMakeFiles/student_service.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/student_service.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/lecture-03/make/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/student_service.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/lecture-03/make/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/make/build/CMakeFiles 0
 .PHONY : CMakeFiles/student_service.dir/rule
 
 # Convenience name for target.
