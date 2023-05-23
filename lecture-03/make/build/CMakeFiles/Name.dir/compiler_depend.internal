@@ -3,8 +3,7 @@
 
 CMakeFiles/Name.dir/Name.cpp.o
  /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.cpp
- /Users/lesliecook/lecture-03/make/Name.cpp
- /Users/lesliecook/lecture-03/make/Name.hpp
+ /Users/lesliecook/CMake_tutorials/lecture-03/make/Name.hpp
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h
