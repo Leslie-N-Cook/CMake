@@ -11,7 +11,7 @@ provides the complete solution for the previous step.
 
 ### Build Instructions
 
-- Click [here](https://cmake.org/cmake/help/latest/guide/tutorial/) to follow the the full tutorial.
+- Click [here](https://cmake.org/cmake/help/latest/guide/tutorial/) for the full tutorial.
 
 ### Files
 
