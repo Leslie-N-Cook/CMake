@@ -1,0 +1,11 @@
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/libMathFunctions.1.0.0.dylib
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/libMathFunctions.1.dylib
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/libMathFunctions.dylib
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/libSqrtLibrary.a
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/include/MathFunctions.h
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/bin/Tutorial
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/include/TutorialConfig.h
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/cmake/MathFunctions/MathFunctionsTargets.cmake
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/cmake/MathFunctions/MathFunctionsTargets-release.cmake
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/cmake/MathFunctions/MathFunctionsConfig.cmake
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step12/_CPack_Packages/Darwin/TGZ/Tutorial-1.0-Darwin/lib/cmake/MathFunctions/MathFunctionsConfigVersion.cmake

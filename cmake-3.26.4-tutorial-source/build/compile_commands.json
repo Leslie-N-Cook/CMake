@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/lesliecook/Desktop/cmake-3.26.4-tutorial-source/build",
+  "command": "/usr/bin/clang++  -I/Users/lesliecook/Desktop/cmake-3.26.4-tutorial-source/build -g -std=gnu++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /Users/lesliecook/Desktop/cmake-3.26.4-tutorial-source/Step1/tutorial.cxx",
+  "file": "/Users/lesliecook/Desktop/cmake-3.26.4-tutorial-source/Step1/tutorial.cxx",
+  "output": "CMakeFiles/Tutorial.dir/tutorial.cxx.o"
+}
+]

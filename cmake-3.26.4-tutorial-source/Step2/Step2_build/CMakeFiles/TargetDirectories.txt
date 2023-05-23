@@ -1,0 +1,6 @@
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/CMakeFiles/Tutorial.dir
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/CMakeFiles/edit_cache.dir
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/CMakeFiles/rebuild_cache.dir
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/MathFunctions/CMakeFiles/MathFunctions.dir
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/MathFunctions/CMakeFiles/edit_cache.dir
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/step2/Step2_build/MathFunctions/CMakeFiles/rebuild_cache.dir

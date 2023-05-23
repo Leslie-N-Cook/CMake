@@ -1,0 +1,4 @@
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/Step9/Step9_build/_CPack_Packages/Darwin/ZIP/Tutorial-1.0-Darwin/lib/libMathFunctions.a
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/Step9/Step9_build/_CPack_Packages/Darwin/ZIP/Tutorial-1.0-Darwin/include/MathFunctions.h
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/Step9/Step9_build/_CPack_Packages/Darwin/ZIP/Tutorial-1.0-Darwin/bin/Tutorial
+/Users/lesliecook/CMake_tutorials/cmake-3.26.4-tutorial-source/Step9/Step9_build/_CPack_Packages/Darwin/ZIP/Tutorial-1.0-Darwin/include/TutorialConfig.h
