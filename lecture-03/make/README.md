@@ -1,10 +1,10 @@
 ## Makefiles to CMake
 
-To convert to CMake, you can use the following command in the 'make' root directory:
+To convert to CMake run the following commands in the root directory of the project.
 
 ### Commands 
 
-`mkdir build`
-`cd build`
-`cmake ..`
-`cmake --build .`
+- `mkdir build`
+- `cd build`
+- `cmake ..`
+- `cmake --build .`
