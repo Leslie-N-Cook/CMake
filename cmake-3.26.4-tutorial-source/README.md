@@ -7,11 +7,11 @@ provides the complete solution for the previous step.
 
 ### Source code
 
-[src](https://cmake.org/cmake/help/latest/_downloads/987664e19bf1c78e58910f17f64df29f/cmake-3.26.4-tutorial-source.zip)
+- Click [here](https://cmake.org/cmake/help/latest/_downloads/987664e19bf1c78e58910f17f64df29f/cmake-3.26.4-tutorial-source.zip) to download all source code files. 
 
 ### Build Instructions
 
-[Full Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/)
+- Click [here](https://cmake.org/cmake/help/latest/guide/tutorial/) to follow the the full tutorial.
 
 ### Files
 
