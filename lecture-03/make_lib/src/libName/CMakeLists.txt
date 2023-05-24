@@ -14,7 +14,7 @@ set(SRC
 )
 
 
-include_directories(./include)
+include_directories(./include ./lib ./src ./bin)
 
 # Build Name class in a separate library
 add_library(Name Name.cpp)

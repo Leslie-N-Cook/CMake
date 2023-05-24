@@ -210,6 +210,9 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a library.
+Name:FILEPATH=Name-NOTFOUND
+
 //Value Computed by CMake
 StudentMatters_BINARY_DIR:STATIC=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/build
 
@@ -218,6 +221,9 @@ StudentMatters_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 StudentMatters_SOURCE_DIR:STATIC=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent
+
+//Path to a library.
+libName:FILEPATH=libName-NOTFOUND
 
 
 ########################

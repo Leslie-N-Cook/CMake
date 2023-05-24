@@ -3,7 +3,7 @@
 ///
 
 #ifndef _STUDENT_HPP_
-// #define _STUDENT_HPP_
+#define _STUDENT_HPP_
 
 #include <string>
 

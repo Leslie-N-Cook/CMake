@@ -129,50 +129,12 @@ Name/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
 .PHONY : Name/fast
 
-#=============================================================================
-# Target rules for targets named student_service
-
-# Build rule for target.
-student_service: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 student_service
-.PHONY : student_service
-
-# fast build rule for target.
-student_service/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/build
-.PHONY : student_service/fast
-
-Main.o: Main.cpp.o
-.PHONY : Main.o
-
-# target to build an object file
-Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.o
-.PHONY : Main.cpp.o
-
-Main.i: Main.cpp.i
-.PHONY : Main.i
-
-# target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.i
-.PHONY : Main.cpp.i
-
-Main.s: Main.cpp.s
-.PHONY : Main.s
-
-# target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.s
-.PHONY : Main.cpp.s
-
 Student.o: Student.cpp.o
 .PHONY : Student.o
 
 # target to build an object file
 Student.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.o
 .PHONY : Student.cpp.o
 
 Student.i: Student.cpp.i
@@ -181,7 +143,6 @@ Student.i: Student.cpp.i
 # target to preprocess a source file
 Student.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.i
 .PHONY : Student.cpp.i
 
 Student.s: Student.cpp.s
@@ -190,7 +151,6 @@ Student.s: Student.cpp.s
 # target to generate assembly for a file
 Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
 # Help Target
@@ -202,10 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Name"
-	@echo "... student_service"
-	@echo "... Main.o"
-	@echo "... Main.i"
-	@echo "... Main.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"

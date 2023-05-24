@@ -13,16 +13,17 @@ set(SRC
   Main.cpp
 )
 
+include_directories(./bin ./lib ./include ./src)
 
-include_directories(./include)
-
+# link_libraries(Name Student.cpp)
 # Build Name class in a separate library
 add_library(Name Student.cpp)
 
 
 # Compile the executable
-add_executable(student_service ${SRC})
-# Link to the Name library
-target_link_libraries(student_service Name)
+# add_executable(student_service ${SRC})
+# # Link to the Name library
+# target_link_libraries(student_service Name)
+
 
 
