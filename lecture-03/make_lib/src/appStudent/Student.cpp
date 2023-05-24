@@ -1,7 +1,7 @@
 ///
 /// @file Student.cpp contains definition of class Student
 ///
-
+#include <string>
 #include "Name.hpp"
 //#include "Name.hpp"
 #include "Student.hpp"

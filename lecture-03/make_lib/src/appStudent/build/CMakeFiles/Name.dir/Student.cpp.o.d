@@ -1,6 +1,5 @@
 CMakeFiles/Name.dir/Student.cpp.o: \
   /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp \
-  /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/./Name.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \
@@ -676,4 +675,5 @@ CMakeFiles/Name.dir/Student.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/./Name.hpp \
   /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/./Student.hpp
