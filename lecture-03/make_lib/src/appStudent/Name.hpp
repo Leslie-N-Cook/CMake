@@ -22,4 +22,3 @@ private:
 
 
 #endif // _NAME_HPP_
-
