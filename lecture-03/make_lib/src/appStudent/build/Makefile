@@ -129,29 +129,29 @@ Name/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
 .PHONY : Name/fast
 
-Student.o: Student.cpp.o
-.PHONY : Student.o
+Main.o: Main.cpp.o
+.PHONY : Main.o
 
 # target to build an object file
-Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.o
-.PHONY : Student.cpp.o
+Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Main.cpp.o
+.PHONY : Main.cpp.o
 
-Student.i: Student.cpp.i
-.PHONY : Student.i
+Main.i: Main.cpp.i
+.PHONY : Main.i
 
 # target to preprocess a source file
-Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.i
-.PHONY : Student.cpp.i
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Main.cpp.i
+.PHONY : Main.cpp.i
 
-Student.s: Student.cpp.s
-.PHONY : Student.s
+Main.s: Main.cpp.s
+.PHONY : Main.s
 
 # target to generate assembly for a file
-Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Student.cpp.s
-.PHONY : Student.cpp.s
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Main.cpp.s
+.PHONY : Main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Name"
-	@echo "... Student.o"
-	@echo "... Student.i"
-	@echo "... Student.s"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
 .PHONY : help
 
 

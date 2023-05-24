@@ -69,29 +69,30 @@ include CMakeFiles/student_service.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/student_service.dir/flags.make
 
-CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o: CMakeFiles/student_service.dir/flags.make
-CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
-CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o: CMakeFiles/student_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o -MF CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o.d -o CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
+CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o: CMakeFiles/student_service.dir/flags.make
+CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
+CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o: CMakeFiles/student_service.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o -MF CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o.d -o CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
 
-CMakeFiles/student_service.dir/src/appStudent/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_service.dir/src/appStudent/Student.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp > CMakeFiles/student_service.dir/src/appStudent/Student.cpp.i
+CMakeFiles/student_service.dir/src/appStudent/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_service.dir/src/appStudent/Main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp > CMakeFiles/student_service.dir/src/appStudent/Main.cpp.i
 
-CMakeFiles/student_service.dir/src/appStudent/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_service.dir/src/appStudent/Student.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp -o CMakeFiles/student_service.dir/src/appStudent/Student.cpp.s
+CMakeFiles/student_service.dir/src/appStudent/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_service.dir/src/appStudent/Main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp -o CMakeFiles/student_service.dir/src/appStudent/Main.cpp.s
 
 # Object files for target student_service
 student_service_OBJECTS = \
-"CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o"
+"CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o"
 
 # External object files for target student_service
 student_service_EXTERNAL_OBJECTS =
 
-student_service: CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o
+student_service: CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o
 student_service: CMakeFiles/student_service.dir/build.make
+student_service: libName.a
 student_service: CMakeFiles/student_service.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable student_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_service.dir/link.txt --verbose=$(VERBOSE)

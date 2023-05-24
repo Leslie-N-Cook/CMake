@@ -69,28 +69,28 @@ include CMakeFiles/Name.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Name.dir/flags.make
 
-CMakeFiles/Name.dir/Student.cpp.o: CMakeFiles/Name.dir/flags.make
-CMakeFiles/Name.dir/Student.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
-CMakeFiles/Name.dir/Student.cpp.o: CMakeFiles/Name.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/Student.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/Student.cpp.o -MF CMakeFiles/Name.dir/Student.cpp.o.d -o CMakeFiles/Name.dir/Student.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
+CMakeFiles/Name.dir/Main.cpp.o: CMakeFiles/Name.dir/flags.make
+CMakeFiles/Name.dir/Main.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
+CMakeFiles/Name.dir/Main.cpp.o: CMakeFiles/Name.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/Main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/Main.cpp.o -MF CMakeFiles/Name.dir/Main.cpp.o.d -o CMakeFiles/Name.dir/Main.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
 
-CMakeFiles/Name.dir/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Name.dir/Student.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp > CMakeFiles/Name.dir/Student.cpp.i
+CMakeFiles/Name.dir/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Name.dir/Main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp > CMakeFiles/Name.dir/Main.cpp.i
 
-CMakeFiles/Name.dir/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Name.dir/Student.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp -o CMakeFiles/Name.dir/Student.cpp.s
+CMakeFiles/Name.dir/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Name.dir/Main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp -o CMakeFiles/Name.dir/Main.cpp.s
 
 # Object files for target Name
 Name_OBJECTS = \
-"CMakeFiles/Name.dir/Student.cpp.o"
+"CMakeFiles/Name.dir/Main.cpp.o"
 
 # External object files for target Name
 Name_EXTERNAL_OBJECTS =
 
-libName.a: CMakeFiles/Name.dir/Student.cpp.o
+libName.a: CMakeFiles/Name.dir/Main.cpp.o
 libName.a: CMakeFiles/Name.dir/build.make
 libName.a: CMakeFiles/Name.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libName.a"

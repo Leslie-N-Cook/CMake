@@ -69,28 +69,28 @@ include CMakeFiles/Name.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Name.dir/flags.make
 
-CMakeFiles/Name.dir/src/appStudent/Student.cpp.o: CMakeFiles/Name.dir/flags.make
-CMakeFiles/Name.dir/src/appStudent/Student.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
-CMakeFiles/Name.dir/src/appStudent/Student.cpp.o: CMakeFiles/Name.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/src/appStudent/Student.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/src/appStudent/Student.cpp.o -MF CMakeFiles/Name.dir/src/appStudent/Student.cpp.o.d -o CMakeFiles/Name.dir/src/appStudent/Student.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp
+CMakeFiles/Name.dir/src/appStudent/Main.cpp.o: CMakeFiles/Name.dir/flags.make
+CMakeFiles/Name.dir/src/appStudent/Main.cpp.o: /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
+CMakeFiles/Name.dir/src/appStudent/Main.cpp.o: CMakeFiles/Name.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Name.dir/src/appStudent/Main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Name.dir/src/appStudent/Main.cpp.o -MF CMakeFiles/Name.dir/src/appStudent/Main.cpp.o.d -o CMakeFiles/Name.dir/src/appStudent/Main.cpp.o -c /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp
 
-CMakeFiles/Name.dir/src/appStudent/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Name.dir/src/appStudent/Student.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp > CMakeFiles/Name.dir/src/appStudent/Student.cpp.i
+CMakeFiles/Name.dir/src/appStudent/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Name.dir/src/appStudent/Main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp > CMakeFiles/Name.dir/src/appStudent/Main.cpp.i
 
-CMakeFiles/Name.dir/src/appStudent/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Name.dir/src/appStudent/Student.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp -o CMakeFiles/Name.dir/src/appStudent/Student.cpp.s
+CMakeFiles/Name.dir/src/appStudent/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Name.dir/src/appStudent/Main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Main.cpp -o CMakeFiles/Name.dir/src/appStudent/Main.cpp.s
 
 # Object files for target Name
 Name_OBJECTS = \
-"CMakeFiles/Name.dir/src/appStudent/Student.cpp.o"
+"CMakeFiles/Name.dir/src/appStudent/Main.cpp.o"
 
 # External object files for target Name
 Name_EXTERNAL_OBJECTS =
 
-libName.a: CMakeFiles/Name.dir/src/appStudent/Student.cpp.o
+libName.a: CMakeFiles/Name.dir/src/appStudent/Main.cpp.o
 libName.a: CMakeFiles/Name.dir/build.make
 libName.a: CMakeFiles/Name.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libName.a"

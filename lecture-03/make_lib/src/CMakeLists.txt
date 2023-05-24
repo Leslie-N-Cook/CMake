@@ -17,12 +17,12 @@ set(SRC
 
 
 find_library(libName Name ./lib ./bin ./include ./src)
-find_file(Name Student.cpp ./lib ./bin ./include ./src)
+find_file(Name Main.cpp ./lib ./bin ./include ./src)
 # Build Name class in a separate library
 # link_libraries(libName appStudent)
 link_directories(libName appStudent)
 # Build Name class in a separate library
-add_library(Name ${PROJECT_SOURCE_DIR}/appStudent/Student.cpp)
+add_library(Name ${PROJECT_SOURCE_DIR}/appStudent/Main.cpp)
 
 
 # Compile the executable

@@ -3,7 +3,7 @@
 ///
 
 #include <string>
-
+#pragma once // This is a non-standard pragma to prevent multiple inclusion
 #ifndef _NAME_HPP_
 #define _NAME_HPP_
 

@@ -142,32 +142,32 @@ student_service/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/build
 .PHONY : student_service/fast
 
-src/appStudent/Student.o: src/appStudent/Student.cpp.o
-.PHONY : src/appStudent/Student.o
+src/appStudent/Main.o: src/appStudent/Main.cpp.o
+.PHONY : src/appStudent/Main.o
 
 # target to build an object file
-src/appStudent/Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Student.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Student.cpp.o
-.PHONY : src/appStudent/Student.cpp.o
+src/appStudent/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o
+.PHONY : src/appStudent/Main.cpp.o
 
-src/appStudent/Student.i: src/appStudent/Student.cpp.i
-.PHONY : src/appStudent/Student.i
+src/appStudent/Main.i: src/appStudent/Main.cpp.i
+.PHONY : src/appStudent/Main.i
 
 # target to preprocess a source file
-src/appStudent/Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Student.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Student.cpp.i
-.PHONY : src/appStudent/Student.cpp.i
+src/appStudent/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Main.cpp.i
+.PHONY : src/appStudent/Main.cpp.i
 
-src/appStudent/Student.s: src/appStudent/Student.cpp.s
-.PHONY : src/appStudent/Student.s
+src/appStudent/Main.s: src/appStudent/Main.cpp.s
+.PHONY : src/appStudent/Main.s
 
 # target to generate assembly for a file
-src/appStudent/Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Student.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Student.cpp.s
-.PHONY : src/appStudent/Student.cpp.s
+src/appStudent/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/src/appStudent/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/src/appStudent/Main.cpp.s
+.PHONY : src/appStudent/Main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Name"
 	@echo "... student_service"
-	@echo "... src/appStudent/Student.o"
-	@echo "... src/appStudent/Student.i"
-	@echo "... src/appStudent/Student.s"
+	@echo "... src/appStudent/Main.o"
+	@echo "... src/appStudent/Main.i"
+	@echo "... src/appStudent/Main.s"
 .PHONY : help
 
 

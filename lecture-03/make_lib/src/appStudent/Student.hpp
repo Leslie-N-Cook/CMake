@@ -1,7 +1,7 @@
 ///
 /// @file Student.hpp contains declaration of class Student
 ///
-
+#pragma once // This is a non-standard pragma to prevent multiple inclusion
 #ifndef _STUDENT_HPP_
 #define _STUDENT_HPP_
 

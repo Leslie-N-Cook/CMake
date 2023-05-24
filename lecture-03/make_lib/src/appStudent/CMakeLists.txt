@@ -17,7 +17,7 @@ include_directories(./bin ./lib ./include ./src)
 
 # link_libraries(Name Student.cpp)
 # Build Name class in a separate library
-add_library(Name Student.cpp)
+add_library(Name Main.cpp)
 
 
 # Compile the executable

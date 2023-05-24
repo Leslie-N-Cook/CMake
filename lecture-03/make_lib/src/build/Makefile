@@ -129,29 +129,29 @@ Name/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
 .PHONY : Name/fast
 
-appStudent/Student.o: appStudent/Student.cpp.o
-.PHONY : appStudent/Student.o
+appStudent/Main.o: appStudent/Main.cpp.o
+.PHONY : appStudent/Main.o
 
 # target to build an object file
-appStudent/Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Student.cpp.o
-.PHONY : appStudent/Student.cpp.o
+appStudent/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Main.cpp.o
+.PHONY : appStudent/Main.cpp.o
 
-appStudent/Student.i: appStudent/Student.cpp.i
-.PHONY : appStudent/Student.i
+appStudent/Main.i: appStudent/Main.cpp.i
+.PHONY : appStudent/Main.i
 
 # target to preprocess a source file
-appStudent/Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Student.cpp.i
-.PHONY : appStudent/Student.cpp.i
+appStudent/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Main.cpp.i
+.PHONY : appStudent/Main.cpp.i
 
-appStudent/Student.s: appStudent/Student.cpp.s
-.PHONY : appStudent/Student.s
+appStudent/Main.s: appStudent/Main.cpp.s
+.PHONY : appStudent/Main.s
 
 # target to generate assembly for a file
-appStudent/Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Student.cpp.s
-.PHONY : appStudent/Student.cpp.s
+appStudent/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/appStudent/Main.cpp.s
+.PHONY : appStudent/Main.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Name"
-	@echo "... appStudent/Student.o"
-	@echo "... appStudent/Student.i"
-	@echo "... appStudent/Student.s"
+	@echo "... appStudent/Main.o"
+	@echo "... appStudent/Main.i"
+	@echo "... appStudent/Main.s"
 .PHONY : help
 
 
