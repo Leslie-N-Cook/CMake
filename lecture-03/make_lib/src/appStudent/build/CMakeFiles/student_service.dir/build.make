@@ -108,7 +108,6 @@ student_service_EXTERNAL_OBJECTS =
 student_service: CMakeFiles/student_service.dir/Student.cpp.o
 student_service: CMakeFiles/student_service.dir/Main.cpp.o
 student_service: CMakeFiles/student_service.dir/build.make
-student_service: libName.a
 student_service: CMakeFiles/student_service.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable student_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_service.dir/link.txt --verbose=$(VERBOSE)

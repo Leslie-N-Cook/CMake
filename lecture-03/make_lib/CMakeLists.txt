@@ -11,16 +11,14 @@ include_directories(./bin ./lib ./include ./src)
 set(SRC
   Student.cpp
   Main.cpp
-  Name.cpp
   )
 
-
-
+# add_subdirectory(src)
 find_library(libName Name ./lib ./bin ./include ./src)
 find_file(Name Main.cpp ./lib ./bin ./include ./src)
 # Build Name class in a separate library
-# link_libraries(libName appStudent)
-link_directories(lib bin include src)
+link_libraries(libName.a libName.so)
+link_directories(./lib ./bin ./include ./src)
 # Build Name class in a separate library
 add_library(Name ${PROJECT_SOURCE_DIR}/src/appStudent/Main.cpp)
 

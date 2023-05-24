@@ -1,12 +1,13 @@
-///
+/// 
 /// Composition is "has-a" relationship between classes.
 /// Helps create a more modular code.
-///
+/// @main - demonstrates the use of the Student class.
+
 
 #include <iostream>
 #include <string>
 
-#include "Student.hpp"
+#include "Student.cpp"
 
 int main()
 {

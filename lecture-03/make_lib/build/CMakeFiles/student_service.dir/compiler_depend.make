@@ -732,10 +732,14 @@ CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o: /Users/lesliecook/CMak
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp \
+  /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Name.hpp \
   /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.hpp
 
 
 /Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.hpp:
+
+/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Name.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -1804,6 +1808,8 @@ CMakeFiles/student_service.dir/src/appStudent/Main.cpp.o: /Users/lesliecook/CMak
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_uint8_t.h:
+
+/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/appStudent/Student.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_pod.h:
 

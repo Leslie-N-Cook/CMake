@@ -11,7 +11,6 @@ include_directories(./bin ./lib ./include ./src)
 set(SRC
   Student.cpp
   Main.cpp
-  Name.cpp
   )
 
 
