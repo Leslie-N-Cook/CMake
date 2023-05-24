@@ -1,0 +1,3 @@
+/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/libName/build/CMakeFiles/Name.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/libName/build/CMakeFiles/edit_cache.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/make_lib/src/libName/build/CMakeFiles/rebuild_cache.dir
