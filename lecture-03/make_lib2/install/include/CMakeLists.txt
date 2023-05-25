@@ -25,6 +25,3 @@ option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 add_library(Name Name.cpp)
 
 
-
-
-# control where the static and shared libraries are built so that on windows
