@@ -1,2 +1,2 @@
-Directory to install application binaries
+Directory to install library binaries
 
