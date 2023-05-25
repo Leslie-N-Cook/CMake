@@ -4,7 +4,7 @@ To convert to CMake run the following commands from the [make](../make) director
 
 ### Commands 
 
-- `mkdir build`
-- `cd build`
+- `mkdir my_build`
+- `cd my_build`
 - `cmake ..`
 - `cmake --build .`

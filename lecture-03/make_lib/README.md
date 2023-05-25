@@ -10,8 +10,8 @@ To convert to CMake run the given commands from the following directories in thi
 
 ### Commands 
 
-- `mkdir build`
-- `cd build`
+- `mkdir my_build`
+- `cd my_build`
 - `cmake ..`
 - `cmake --build .`
 
