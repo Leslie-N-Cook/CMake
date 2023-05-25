@@ -1,6 +1,6 @@
 ## Makefiles to CMake
 
-To convert to CMake run the given commands from the following directories in this order:
+To convert to CMake run the following commands from the directories in [make_lib](../make_lib) in this order:
 
 1. [libName](../make_lib/src/libName)
 2. [appStudent](../make_lib/src/appStudent)
