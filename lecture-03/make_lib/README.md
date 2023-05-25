@@ -2,9 +2,9 @@
 
 To convert to CMake run the given commands from the following directories in this order:
 
-1. [libName](../libName)
-2. [appStudent](../appStudent)
-3. [src](../src)
+1. [libName](../make_lib/src/libName)
+2. [appStudent](../make_lib/src/appStudent)
+3. [src](../make_lib/src)
 4. [make_lib](../make_lib) 
 
 
