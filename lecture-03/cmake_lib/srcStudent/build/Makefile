@@ -57,10 +57,10 @@ RM = /opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib
+CMAKE_SOURCE_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/build
+CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -85,56 +85,11 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-.PHONY : list_install_components/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/homebrew/lib/python3.11/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/build/CMakeFiles /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -162,41 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Name
+# Target rules for targets named student_service
 
 # Build rule for target.
-Name: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Name
-.PHONY : Name
+student_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 student_service
+.PHONY : student_service
 
 # fast build rule for target.
-Name/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
-.PHONY : Name/fast
+student_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/build
+.PHONY : student_service/fast
 
-Name.o: Name.cpp.o
-.PHONY : Name.o
+Main.o: Main.cpp.o
+.PHONY : Main.o
 
 # target to build an object file
-Name.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Name.cpp.o
-.PHONY : Name.cpp.o
+Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.o
+.PHONY : Main.cpp.o
 
-Name.i: Name.cpp.i
-.PHONY : Name.i
+Main.i: Main.cpp.i
+.PHONY : Main.i
 
 # target to preprocess a source file
-Name.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Name.cpp.i
-.PHONY : Name.cpp.i
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.i
+.PHONY : Main.cpp.i
 
-Name.s: Name.cpp.s
-.PHONY : Name.s
+Main.s: Main.cpp.s
+.PHONY : Main.s
 
 # target to generate assembly for a file
-Name.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/Name.cpp.s
-.PHONY : Name.cpp.s
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
+Student.o: Student.cpp.o
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/Student.cpp.s
+.PHONY : Student.cpp.s
 
 # Help Target
 help:
@@ -205,15 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Name"
-	@echo "... Name.o"
-	@echo "... Name.i"
-	@echo "... Name.s"
+	@echo "... student_service"
+	@echo "... Main.o"
+	@echo "... Main.i"
+	@echo "... Main.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 .PHONY : help
 
 

@@ -9,6 +9,7 @@ Run the following commands from the [srcLib](../srcLib) directory to build the s
 - `cd my_build`
 - `cmake ..`
 - `cmake --build .`
+- `cmake --install .`
 
 ### Files
 

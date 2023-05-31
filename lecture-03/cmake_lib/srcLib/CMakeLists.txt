@@ -11,6 +11,7 @@ set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
 # set the source files to be compiled
 set(SRC Name.cpp)
 
+
 # copy the headers to the include directory
 set(HEADERS Name.hpp)
 foreach(header ${HEADERS})
@@ -25,6 +26,9 @@ add_library(Name MODULE ${SRC})
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
+set_target_properties(Name PROPERTIES PUBLIC_HEADER "Name.hpp")
 
-
-# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin")
+INSTALL(TARGETS Name 
+        LIBRARY DESTINATION lib
+        PUBLIC_HEADER DESTINATION include
+)
