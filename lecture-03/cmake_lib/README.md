@@ -1,9 +1,7 @@
-### Build the independent library 'Name' to used in the Student application
+### Building a library indepedent of an application
 
-The purpose of this project is to build a library indepedently of the Student application. 
+The purpose of this project is to build and install a shared library called 'Name' and then use it within the application 'Student'.
 
-- First build the Library 'Name'. 
-- Then build the Student application from the source. Only include header files and link it to the library.
 
 ## Files
 
