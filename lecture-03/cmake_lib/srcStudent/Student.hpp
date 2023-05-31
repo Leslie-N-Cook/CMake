@@ -1,7 +1,7 @@
 ///
 /// @file Student.hpp contains declaration of class Student
 ///
-#pragma once
+
 #ifndef _STUDENT_HPP_
 #define _STUDENT_HPP_
 

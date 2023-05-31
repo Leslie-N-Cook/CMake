@@ -1,4 +1,0 @@
-/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/build/CMakeFiles/Name.dir
-/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/build/CMakeFiles/student_service.dir
-/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/build/CMakeFiles/edit_cache.dir
-/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/build/CMakeFiles/rebuild_cache.dir

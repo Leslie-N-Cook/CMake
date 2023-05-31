@@ -6,7 +6,7 @@
 #include <iostream>
 #include <string>
 
-#include "Student.cpp"
+#include "Student.hpp"
 
 int main()
 {

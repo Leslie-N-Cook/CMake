@@ -3,7 +3,7 @@
 ///
 
 #include <string>
-#pragma once
+
 #ifndef _NAME_HPP_
 #define _NAME_HPP_
 
