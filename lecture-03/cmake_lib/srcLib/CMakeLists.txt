@@ -12,11 +12,15 @@ set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
 set(SRC
   Name.cpp
 )
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "lib")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "../lib")
+set(CMAKE_ISPC_HEADER_DIRECTORY "../include")
 # MODULE == shared library (.so)
 add_library(Name MODULE ${SRC})
-
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 
+
+
+
+# set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin")

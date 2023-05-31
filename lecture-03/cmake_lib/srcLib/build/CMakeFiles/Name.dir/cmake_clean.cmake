@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/lib/libName.pdb"
+  "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/lib/libName.so"
   "CMakeFiles/Name.dir/Name.cpp.o"
   "CMakeFiles/Name.dir/Name.cpp.o.d"
-  "lib/libName.pdb"
-  "lib/libName.so"
 )
 
 # Per-language clean rules from dependency scanning.
