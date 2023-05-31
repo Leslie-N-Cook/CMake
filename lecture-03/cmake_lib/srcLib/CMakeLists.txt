@@ -9,17 +9,21 @@ set(gcc_like_cxx "$<COMPILE_LANG_AND_ID:CXX,ARMClang,AppleClang,Clang,GNU,LCC>")
 set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
 
 # set the source files to be compiled
-set(SRC
-  Name.cpp
-)
+set(SRC Name.cpp)
+
+# copy the headers to the include directory
+set(HEADERS Name.hpp)
+foreach(header ${HEADERS})
+    configure_file(${header} ../include/${header} COPYONLY)
+endforeach()
+
+# set the library output directory
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "../lib")
-set(CMAKE_ISPC_HEADER_DIRECTORY "../include")
+
 # MODULE == shared library (.so)
 add_library(Name MODULE ${SRC})
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
-
-
 
 
 
