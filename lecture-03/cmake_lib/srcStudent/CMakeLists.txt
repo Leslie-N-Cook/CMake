@@ -17,8 +17,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../bin")
 add_library(Name INTERFACE /usr/local/lib/libName.so)
 
 target_sources(Name INTERFACE FILE_SET HEADERS BASE_DIRS /usr/local/srcLib/ FILES   /usr/local/srcLib/include/Name.hpp)
+install(FILES /usr/local/srcLib/include/Name.hpp DESTINATION srcStudent)
 install(TARGETS Name EXPORT NameExport FILE_SET HEADERS DESTINATION /include/Name)
-install(EXPORT NameExport NAMESPACE Upstream:: DESTINATION lib/cmake/Name)
+install(EXPORT NameExport NAMESPACE Upstream:: DESTINATION lib/cmake/Name EXPORT_LINK_INTERFACE_LIBRARIES )
 
 add_executable(student_service ${SRC})
 target_link_libraries(student_service Name)
