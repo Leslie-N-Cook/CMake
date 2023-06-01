@@ -1,3 +1,8 @@
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/Name.dir
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/student_service.dir
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/edit_cache.dir
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/rebuild_cache.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/list_install_components.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/install.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/install/local.dir
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles/install/strip.dir

@@ -25,10 +25,10 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "../lib")
 add_library(Name MODULE ${SRC})
 
 option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
-
+option(CMAKE_INSTALL_PREFIX "Install path prefix" "../install")
 set_target_properties(Name PROPERTIES PUBLIC_HEADER "Name.hpp")
 
 INSTALL(TARGETS Name 
-        LIBRARY DESTINATION lib
-        PUBLIC_HEADER DESTINATION include
+        LIBRARY DESTINATION srcLib/lib
+        PUBLIC_HEADER DESTINATION srcLib/include
 )

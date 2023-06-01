@@ -93,7 +93,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/lesliecook/CMake_tutorials/lectur
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 
-//Install path prefix, prepended onto install directories.
+//Install path prefix
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.

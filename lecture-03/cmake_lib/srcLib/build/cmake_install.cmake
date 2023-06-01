@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE MODULE FILES "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/lib/libName.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libName.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libName.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/srcLib/lib" TYPE MODULE FILES "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/lib/libName.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/srcLib/lib/libName.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/srcLib/lib/libName.so")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libName.so")
+      execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/srcLib/lib/libName.so")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/Name.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/srcLib/include" TYPE FILE FILES "/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcLib/Name.hpp")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

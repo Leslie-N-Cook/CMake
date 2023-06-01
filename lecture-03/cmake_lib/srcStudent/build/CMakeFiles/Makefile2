@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Name.dir/all
 all: CMakeFiles/student_service.dir/all
 .PHONY : all
 
@@ -71,14 +72,41 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Name.dir/clean
 clean: CMakeFiles/student_service.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Name.dir
+
+# All Build rule for target.
+CMakeFiles/Name.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles --progress-num= "Built target Name"
+.PHONY : CMakeFiles/Name.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Name.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Name.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles 0
+.PHONY : CMakeFiles/Name.dir/rule
+
+# Convenience name for target.
+Name: CMakeFiles/Name.dir/rule
+.PHONY : Name
+
+# clean rule for target.
+CMakeFiles/Name.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Name.dir/build.make CMakeFiles/Name.dir/clean
+.PHONY : CMakeFiles/Name.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/student_service.dir
 
 # All Build rule for target.
-CMakeFiles/student_service.dir/all:
+CMakeFiles/student_service.dir/all: CMakeFiles/Name.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_service.dir/build.make CMakeFiles/student_service.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles --progress-num=1,2,3 "Built target student_service"
