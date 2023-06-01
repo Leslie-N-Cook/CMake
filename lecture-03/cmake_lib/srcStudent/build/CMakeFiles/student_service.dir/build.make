@@ -108,6 +108,7 @@ student_service_EXTERNAL_OBJECTS =
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service: CMakeFiles/student_service.dir/Main.cpp.o
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service: CMakeFiles/student_service.dir/Student.cpp.o
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service: CMakeFiles/student_service.dir/build.make
+/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service: /usr/local/lib/libName.dylib
 /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service: CMakeFiles/student_service.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/bin/student_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_service.dir/link.txt --verbose=$(VERBOSE)

@@ -1,6 +1,6 @@
 CMakeFiles/student_service.dir/Student.cpp.o: \
   /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/Student.cpp \
-  /usr/local/srcLib/include/Name.hpp \
+  /Users/lesliecook/CMake_tutorials/lecture-03/cmake_lib/srcStudent/../srcLib/include/Name.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/comp.h \

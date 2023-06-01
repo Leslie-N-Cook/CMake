@@ -1,2 +1,2 @@
-/usr/local/srcLib/lib/libName.so
+/usr/local/srcLib/lib/libName.dylib
 /usr/local/srcLib/include/Name.hpp
