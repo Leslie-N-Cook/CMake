@@ -12,8 +12,8 @@ set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
 set(SRC Main.cpp Student.cpp)
 
 #makes variables for the folder locations that have the headers and libraries
-set(INCLUDE "${CMAKE_CURRENT_SOURCE_DIR}/../srcLib/include")
-set(LIB "${CMAKE_CURRENT_SOURCE_DIR}/../srcLib/lib")
+set(INCLUDE ${CMAKE_CURRENT_SOURCE_DIR}/../srcLib/include)
+set(LIB ${CMAKE_CURRENT_SOURCE_DIR}/../srcLib/lib)
 
 #allows access to the header files
 include_directories(${INCLUDE})
@@ -22,7 +22,7 @@ include_directories(${INCLUDE})
 find_library(NAME_LIB Name ${LIB})
 
 # set the output directory to "bin"
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../bin")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
 
 
 # create the executable
